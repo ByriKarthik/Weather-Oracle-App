@@ -312,7 +312,7 @@ document.getElementById('predictionForm').addEventListener('submit', async funct
     resultDiv.className = 'result';
 
     try {
-        const response = await fetch('https://weather-oracle-frontend.onrender.com/predict', {
+        const response = await fetch('https://weather-oracle-app.onrender.com/predict', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
